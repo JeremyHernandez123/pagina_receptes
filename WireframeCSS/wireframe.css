@@ -4,7 +4,7 @@
 	height: 30px;
 	border: 1px solid black;
 	padding-top: 10px;
-	background-color: #FFE4C4;
+	background-color: #ffe8d6;
 }
 
 .barra {
@@ -51,6 +51,7 @@ h2{
 }
 
 h3 {
+	margin-top: 0px;
 	font-weight: normal;
 	font-size: 30px;
 }
@@ -81,23 +82,53 @@ h4 {
 }
 
 .RecipeImg {
-	padding-left: 70px;
-	padding-right: 70px;
+	margin-left: 70px;
+	margin-right: 70px;
 	display: flex;
 	gap: 350px;
 
 }
 
 .Never {
-	padding-left: 70px;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding: 29px;
 	display: flex;
-	gap: 400px;
+	gap: 200px;
 	justify-content: space-evenly;
+	align-items: baseline;
+	background-color: #cb997e;
+	border-radius: 30px;
 }
 
 .EnviarMail {
-	border-color: orange;
+	border-color: #ffe8d6;
 	border-radius: 10px;
-	background-color: transparent;
+	background-color: #ffe8d6;
 	margin-left: 0px;
+}
+
+.PupularRecipes {
+	margin-left: 70px;
+	margin-right: 70px;
+	display: flex;
+	gap: 350px;
+}
+
+.AboutAuthor {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	background-color: #ddbea9;
+	margin: 0px;
+	gap: 150px;
+}
+
+.PeuPagina {
+	height: 150px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: baseline;
+	gap: 100px;
+	background-color: #ffe8d6;
 }
