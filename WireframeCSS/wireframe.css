@@ -1,7 +1,10 @@
+body {
+	margin: 0px;
+}
 .barranav {
 	top: 0px;
 	left: 0px;
-	height: 30px;
+	height: 40px;
 	border: 1px solid black;
 	padding-top: 10px;
 	background-color: #ffe8d6;
@@ -12,6 +15,7 @@
 	top: 10px;
 	left: 10px;
 	padding: 0px;
+
 }
 
 nav {
@@ -70,6 +74,7 @@ h4 {
 }
 
 .Categorias {
+	display: flex;
 	width: 500px;
 	padding-left: 70px;
 	padding-top: 10px;
@@ -128,7 +133,106 @@ h4 {
 	height: 150px;
 	display: flex;
 	justify-content: space-evenly;
-	align-items: baseline;
-	gap: 100px;
+	align-items: center;
+	gap: 200px;
 	background-color: #ffe8d6;
+}
+.Img2 {
+	height: 400px;
+}
+
+@media (min-width: 0px) and (max-width: 414px) {
+	.barranav {
+		top: 0px;
+		left: 0px;
+		height: 40px;
+		width: 100%;
+		border: 1px solid black;
+		padding-top: 10px;
+		background-color: #ffe8d6;
+	}
+	.portada {
+		display: ;
+		left: 0px;
+		height: 50px;
+		padding: 230px;
+		padding-left: 30px;
+		margin-left: 0px;
+		margin-top: 0px;
+		background: none;
+		background-image: url('wireframeEstorage/wireframeimagen.png');
+		padding-top: 70px;
+	}
+
+	.Categorias {
+		display: flex;
+		flex-grow: 5;
+		flex-wrap: wrap;
+		align-items: start;
+		width: 500px;
+		padding-left: 30px;
+		padding-top: 10px;
+	}
+
+	.LatestRecipes {
+		font-size: 40px;
+		padding-left: 30px;
+
+	}
+
+	.RecipeImg {
+		margin-left: 30px;
+		margin-right: 70px;
+		display: flex;
+		gap: 350px;
+
+	}
+
+	.Never {
+		margin-left: 30px;
+		margin-right: 70px;
+		padding: 29px;
+		display: flex;
+		gap: 200px;
+		justify-content: space-evenly;
+		align-items: baseline;
+		background-color: #cb997e;
+		border-radius: 30px;
+	}
+
+	.EnviarMail {
+		border-color: #ffe8d6;
+		border-radius: 10px;
+		background-color: #ffe8d6;
+		margin-left: 0px;
+	}
+
+	.PupularRecipes {
+		margin-left: 30px;
+		margin-right: 70px;
+		display: flex;
+		gap: 350px;
+	}
+
+	.AboutAuthor {
+		display: flex;
+		justify-content: center;
+		padding: 10px;
+		background-color: #ddbea9;
+		margin: 0px;
+		gap: 150px;
+	}
+
+	.PeuPagina {
+		height: 150px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		gap: 200px;
+		background-color: #ffe8d6;
+	}
+	.Img2 {
+		height: 400px;
+	}
+
 }
