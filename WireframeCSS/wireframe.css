@@ -156,7 +156,7 @@ h4 {
 		left: 0px;
 		height: 50px;
 		padding: 230px;
-		padding-left: 30px;
+		padding-left: 10px;
 		margin-left: 0px;
 		margin-top: 0px;
 		background: none;
@@ -168,36 +168,44 @@ h4 {
 		display: flex;
 		flex-grow: 5;
 		flex-wrap: wrap;
-		align-items: start;
-		width: 500px;
-		padding-left: 30px;
+		align-items: center;
+		width: 200px;
+		padding-left: 20px;
 		padding-top: 10px;
 	}
 
 	.LatestRecipes {
-		font-size: 40px;
-		padding-left: 30px;
+		font-size: 30px;
+		padding-left: 10px;
 
 	}
 
 	.RecipeImg {
-		margin-left: 30px;
-		margin-right: 70px;
+		margin-left: 10px;
+		margin-right: 30px;
 		display: flex;
-		gap: 350px;
-
+		justify-content: flex-start;
+		justify-items: center;
+		flex-wrap: wrap;
+		gap: none;
+		align-self: auto;
+	}
+	.LatestImg {
+		width: 290px;
 	}
 
 	.Never {
-		margin-left: 30px;
+		margin-left: 10px;
 		margin-right: 70px;
 		padding: 29px;
 		display: flex;
-		gap: 200px;
+		gap: 30px;
 		justify-content: space-evenly;
 		align-items: baseline;
 		background-color: #cb997e;
 		border-radius: 30px;
+		flex-wrap: wrap;
+
 	}
 
 	.EnviarMail {
@@ -211,7 +219,9 @@ h4 {
 		margin-left: 30px;
 		margin-right: 70px;
 		display: flex;
-		gap: 350px;
+		gap: none;
+		flex-wrap: wrap;
+
 	}
 
 	.AboutAuthor {
@@ -220,19 +230,40 @@ h4 {
 		padding: 10px;
 		background-color: #ddbea9;
 		margin: 0px;
-		gap: 150px;
+		gap: 10px;
 	}
 
 	.PeuPagina {
 		height: 150px;
 		display: flex;
-		justify-content: space-evenly;
-		align-items: center;
-		gap: 200px;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		gap: 5px;
 		background-color: #ffe8d6;
 	}
 	.Img2 {
 		height: 400px;
 	}
+
+	h1 {
+		font-size: 30px;
+		margin-top: 5px;
+	}
+	h2{
+		font-size: 30px;
+		padding-left: 30px;
+		font-weight: normal;
+	}
+
+	h3 {
+		margin-top: 0px;
+		font-weight: normal;
+		font-size: 30px;
+	}
+	h4 {
+ 		margin: 0px;
+ 		width: 300px;
+	 }
 
 }
